@@ -1,0 +1,600 @@
+/*Definition of polices*/
+
+@font-face {
+	font-family: 'Aniron';
+/*	font-style: normal;
+	font-weight: 400;*/
+	src: url('pete-klassen_aniron/anicb___.ttf') format('truetype'),
+		 url('pete-klassen_aniron/anicm___.ttf') format('truetype'),
+		 url('pete-klassen_aniron/anirb___.ttf') format('truetype'),
+		 url('pete-klassen_aniron/anirm___.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Partybusiness';
+/*	font-style: normal;
+	font-weight: 400;*/
+	src: url(nancy-lorenz_party-business/partybusiness.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: 'TengwarClassic';
+/*	font-style: normal;
+	font-weight: 400;*/
+	src: url(tengwar_annatar/tngan.ttf) format('truetype');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'TengwarBold';
+/*	font-style: normal;
+	font-weight: 400;*/
+	src: url(tengwar_annatar/tnganb.ttf) format('truetype');
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: 'TengwarItalicBold';
+/*	font-style: normal;
+	font-weight: 400;*/
+	src: url(tengwar_annatar/tnganbi.ttf) format('truetype');
+	font-weight: bold;
+	font-style: italic,
+}
+
+@font-face {
+	font-family: 'TengwarItalic';
+/*	font-style: normal;
+	font-weight: 400;*/
+	src: url(tengwar_annatar/tngani.ttf) format('truetype');
+	font-style: italic;
+}
+
+h4
+{
+	font-family: 'Aniron';
+}
+
+/*Horizontal line without margins*/
+
+hr
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+
+.orange-line
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	height: 5px;
+	background-color: rgb(200, 70, 5);
+	transform: skewX(-40deg);
+}
+
+
+/*Header*/
+
+header
+{
+	background-color: #ff5f01;
+}
+
+/*Symbols in elvish that embelish all titles*/
+
+.symboltengwari
+{
+	display: inline-block;
+	padding: 0cm 0cm 0cm 0cm;
+	font-family: 'TengwarItalic';
+    transform: rotate(-20deg);
+    font-size: 24px;
+    position: relative;
+	top: -0.3cm;
+	color: #e58258;
+	margin-left: 1vw;
+}
+
+.symboltengwarj
+{
+	display: inline-block;
+	padding: 0cm 0cm 0cm 0cm;
+	font-family: 'TengwarItalic';
+	font-size: 24px;
+	position: relative;
+	top: -0.3cm;
+	color: #e58258;
+}
+
+/*Navbar*/
+
+#logoring
+{
+	opacity: 0.85;
+}
+
+.nav-link
+{
+	font-family: 'Aniron';
+	font-size: 18px;
+	color: seashell;
+	opacity: 0.85;
+}
+
+.nav-link:hover
+{
+	color: seashell;
+	border-bottom: 3px solid oldlace;
+	opacity: 0.85;
+}
+
+.verticalseparator
+{
+	height: 20px;
+	border: 1px solid seashell;
+	opacity: 0.85;
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/*Carousel*/
+
+.carousel-control-prev-icon
+{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+	padding: 20%;
+	margin-right: 35%;
+}
+
+.carousel-control-next-icon
+{
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+	padding: 20%;
+	margin-left: 35%;
+}
+
+.carousel-caption
+{
+	font-family: 'Partybusiness';
+	padding-bottom: 15%;
+}
+
+.carousel-caption h1
+{
+	font-size: 3.4vw;
+}
+
+.darkvador-textglobal, .carousel-caption p
+{
+	font-size: 2.2vw;
+}
+
+#darkvador-text2
+{
+	margin-left: 8%;
+}
+
+/*Pills fellows*/
+
+.nav-pills .nav-link
+{
+	background-color: rgba(1,1,1,0);
+	color: #6c6b66;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	margin-right: 2%;
+	margin-left: 2%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.nav-pills .nav-link.active
+{
+	background-color: rgba(1,1,1,0);
+	color: #e58258;
+}
+
+.nav-pills
+{
+	font-family: 'Aniron';
+	font-size: 18px;
+}
+
+.symboltengwarb
+{
+	display: inline-block;
+	visibility: hidden;
+	padding: 0cm 0cm 0cm 0cm;/*Padding to be the size of the font*/
+	font-family: 'TengwarItalic';
+    font-size: 24px;
+	color: #e58258;
+	margin-left: 0.5vw;
+	margin-right: 0.5vw;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.nav-pills .nav-link:hover .symboltengwarb
+{
+	visibility: visible;
+}
+
+.nav-pills .nav-link:hover
+{
+	border-bottom: 5px solid #e58258;;
+}
+
+/*Tab content properties*/
+
+.tab-pane .card
+{
+	border: 5px solid rgb(10,10,10);
+	border-radius: 0px;
+}
+
+.tab-content
+{
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+/*Background fellows*/
+
+#fellows
+{
+	padding-top: 2.3vw;
+	padding-bottom: 2.3vw;
+	background-image: url("../img/integration_maquette_finale/bg_light.png");
+}
+
+/*Card deck*/
+
+.card-img-overlay .reward
+{
+	height: 9vw;
+	border-radius: 4px 4px 4px 4px;
+	border: 0px none transparent;
+	box-shadow: 0 0 4px 4px rgba(240,240,240, 0.8);
+	font-size: 2.5vw;
+	background-color: rgba(240,240,240, 0.8);
+	font-family: 'Partybusiness';
+}
+
+.card-img-overlay .namecharacter
+{
+	height: 30%;
+	font-size: 4vw;
+	font-family: 'Partybusiness';
+	color: white;
+}
+
+.card-img-overlay .namecharactersmall
+{
+	height: 1%;
+	font-size: 2.3vw;
+	visibility: hidden;
+	color: white;
+	font-family: 'Partybusiness';
+}
+
+#fellows .card-body
+{
+	background-color: rgb(10,10,10);
+	font-family: 'Partybusiness';
+	font-size: 2.2vw;
+}
+
+.card-img-overlay .rewarddead
+{
+	height: 9vw;
+	font-size: 4vw;
+	font-family: 'Partybusiness';
+}
+
+.card-img-overlay .namecharacterdead
+{
+	height: 45%;
+	font-size: 4vw;
+	color: white;
+	text-decoration-line: line-through;
+	text-decoration-color: #ff5f01;
+	font-family: 'Partybusiness';
+}
+
+
+@media screen and (max-width: 576px) {
+    .card-img-overlay .reward {
+        font-size: 18px;
+    }
+    .card-img-overlay .rewarddead{
+    	font-size: 18px;
+    }
+    .card-img-overlay .namecharacter{
+        font-size: 18px;	
+    }
+    .card-img-overlay .namecharactersmall{
+        font-size: 18px;
+    }
+    .card-img-overlay .namecharacterdead{
+        font-size: 18px;
+    }
+    .card-img-overlay .rewarddead{
+    	font-size: 18px;
+    }
+    .card-img-overlay .rewarddead{
+        font-size: 18px;
+    }
+    #fellows .card-body{
+        font-size: 18px;
+    }
+}
+MAKE QUERIES FOR THE SMALL AND EXTRA SMALL SIZE OF THE FONTS OF GANDALF AND
+COMPANY AND MAYBE ALSO FOR THE LENGTH OF THE CARD CONTENT TO ADD EXTRA
+MARGIN LEFT RIGHT TO MAKE IT SMALL..
+
+
+
+.card-deck .card-img-top
+{
+	border-radius: 0px
+}
+
+.dead
+{
+	color: white;
+	font-family: 'Partybusiness';
+}
+
+.alive
+{
+	color: white;
+}
+
+/*Additional transparency in negative, so a ittle bit darker*/
+
+.opaque
+{
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+strong
+{
+	color: rgb(200, 70, 5);
+	font-weight: 300;
+}
+
+/*Transparency in positive, so a ittle bit lighter*/
+
+.cardalive
+{
+	opacity: 0.7;
+}
+
+/*Cards effects with hover*/
+
+.card:hover .card-img-top
+{
+	opacity: 1;
+}
+
+.card:hover .reward
+{
+	visibility: hidden;
+}
+
+.card:hover .namecharacter
+{
+	visibility: hidden;
+}
+
+.card:hover .namecharactersmall
+{
+	visibility: visible;
+}
+
+#getmyreward
+{
+	background-color: rgb(10,10,10);
+	color: white;
+}
+
+.media-body
+{
+	font-family: 'Partybusiness';
+}
+
+.contact-button
+{
+	font-family: 'Aniron';
+	color: rgb(200, 70, 5);
+	background-color: white;
+	transform: skewX(-20deg);
+}
+
+.contact-button p
+{
+	transform: skewX(20deg);
+}
+
+#besthunters
+{
+	background-image: url("../img/integration_maquette_finale/bg_light.png");
+}
+
+#besthunters .hunter
+{
+	margin-left: 3vw;
+}
+
+.sou
+{
+	text-decoration: underline;
+}
+
+.hate-button
+{
+	background-color: rgb(10, 10, 10);
+	color: rgb(200, 70, 5);
+	transform: skewX(-20deg);
+}
+
+.hate-button p
+{
+	transform: skewX(20deg);
+}
+
+#thering
+{
+	background-color: rgb(10, 10, 10);
+}
+
+.theringtitle
+{
+	color: white;
+}
+
+#thering .card-header
+{
+	background-color: #ff5f01;
+	border-top-width: : 0px;
+	font-family: 'Aniron';
+	color: white;
+}
+
+#thering .card
+{
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: : 0px;
+	border-bottom-width: 4px;
+	border-bottom-color: #ff5f01;
+}
+
+.card-body p
+{
+	font-family: 'Partybusiness';
+}
+
+.table
+{
+	font-family: 'Aniron';
+}
+
+tbody
+{
+	color: grey;
+}
+
+.card-body
+{
+	background-color: #e9e9e9;
+}
+
+.gollumtext
+{
+	color: grey;
+}
+
+#jointhearmy
+{
+	background-image: url("../img/integration_maquette_finale/bg_light.png");
+}
+
+.army
+{
+	display: inline-block;
+	width: 100%;
+}
+
+.moreinfo-button
+{
+	background-color: rgb(10, 10, 10);
+	color: rgb(200, 70, 5);
+	transform: skewX(-20deg);
+	font-family: 'Aniron';
+}
+
+.moreinfo-button p
+{
+	transform: skewX(20deg);
+}
+
+.moreinfo
+{
+	font-family: 'Aniron';
+}
+
+#contactus
+{
+	background-color: rgb(10, 10, 10);
+}
+
+.title-contact
+{
+	color: white;
+}
+
+.map
+{
+	width: 100%;
+}
+
+form input, form select, form textarea
+{
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+form
+{
+	font-family: 'Aniron';
+}
+
+form input
+{
+	margin-left: 2%;
+}
+
+#footer
+{
+	background-color: #ff5f01;
+	color: white;
+	font-family: 'Aniron';
+}
+
+#footer a,
+{
+	display: inline-block;
+}
+
+a:link
+{
+	color: white;
+}
+
+a:visited
+{
+	color: white;
+}
+
+a:active
+{
+	color: white;
+}
+
+a
+{
+	padding-top: 6%
+}
+
+.logoringbas
+{
+	width: 60%;
+}
